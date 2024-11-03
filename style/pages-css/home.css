@@ -1,0 +1,607 @@
+/* Container Section Styling */
+.container-1 {
+    height: 761px;
+    background-image: url("/assets/image/home/wave.svg");
+    z-index: -1;
+}
+
+.container-2 {
+    height: 761px;
+    width: 100%;
+    z-index: 1;
+    background: #68D5851A;
+}
+
+/* Header Section Styling */
+.header-title {
+    font-family: var(--Rubik);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.44px;
+    letter-spacing: -0.031em;
+}
+
+.head {
+    margin-left: 200px;
+}
+
+.navbar-brand {
+    padding-left: 50px;
+    font-family: var(--Rubik);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.44px;
+    letter-spacing: -0.031em;
+}
+
+.nav-link {
+    font-family: var(--Roboto);
+    color: var(--mainblack);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+}
+
+.active {
+    color: #FB6D45 !important;
+}
+
+/* Dream Job Section Styling */
+.dream-job {
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+}
+
+.dream-job-content {
+    width: 518px;
+    height: 402px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    padding-right: 140px;
+    gap: 21px;
+}
+
+.dream-job-title {
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: -2px;
+    text-align: left;
+}
+
+.dream-job-text {
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+}
+
+/* Big Companies Section Styling */
+.container-3 {
+    padding-top: 114px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 125px;
+}
+
+.big-companies {
+    width: 686px;
+}
+
+.big-companies-title {
+    display: block;
+    text-align: center;
+    font-family: var(--Roboto);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1.2000000476837158px;
+    text-align: center;
+}
+
+.big-companies-text {
+    margin-top: 30px;
+    text-align: center;
+    font-family: var(--Roboto);
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: center;
+}
+
+/* jobs section starts */
+
+.job-title-text {
+    width: 429px;
+    height: 132px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.jobs-category {
+    width: 100%;
+    height: 746px;
+    background: #161C2D;
+    padding-top: 132px;
+
+}
+
+.jobs-title {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1.2000000476837158px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.jobs-text {
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.20000000298023224px;
+    /* text-align: left; */
+    opacity: 0.65px;
+    color: lightgray;
+}
+
+.job-card {
+    height: 117px;
+    width: 350px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 32px;
+    gap: 6px;
+}
+
+.job-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 65px;
+}
+
+.job-container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.jd-1 {
+    margin-top: 10px;
+}
+
+.job-card p {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    opacity: 65%;
+    color: var(--mainblack);
+
+}
+
+.job-card h4 {
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: var(--mainblack);
+}
+
+.purple {
+    background: #473BF0;
+
+}
+
+.purple h4 {
+    color: #FFFFFF;
+}
+
+.purple p {
+    color: #FFFFFF;
+}
+
+
+/* Find-Jobs starts */
+
+.find-jobs {
+    padding-top: 113px;
+}
+
+.find-jobs-heading {
+    width: 589px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.find-jobs-title {
+    font-family: var(--Roboto);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1.2000000476837158px;
+    text-align: center;
+
+}
+
+.find-jobs-text {
+    font-family: var(--Roboto);
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: center;
+}
+
+.interview {
+    margin-top: 86px;
+    margin-left: 321px;
+    display: flex;
+    gap: 70px;
+}
+
+.search-jobs-card {
+    height: 100px;
+    width: 404px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+}
+
+.search-jobs-card img {
+    align-self: flex-start;
+}
+
+.search-jobs {
+    margin-top: 86px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.serch-job-title {
+    font-family: var(--Roboto);
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+    text-align: left;
+
+}
+
+.search-job-text {
+
+    font-family: var(--Roboto);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+}
+
+.line {
+    margin-top: 118px;
+    border: 1px solid #E7E9ED
+}
+
+/* Featured Jobs Starts */
+
+.featured-jobs {
+    width: 1110px;
+    margin: 0 auto;
+    height: auto;
+    background-image: url("/assets/image/home/wave.svg");
+    padding-bottom: 245px;
+    padding-top: 107px;
+}
+
+.featured-content {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 505px;
+    padding-right: 152px;
+}
+
+.featured-title {
+    font-family: var(--Roboto);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1.2000000476837158px;
+    text-align: left;
+
+}
+
+.featured-text {
+    font-family: var(--Roboto);
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+
+}
+
+.featured-cards {
+    display: flex;
+    gap: 30px;
+    margin-top: 84px;
+}
+
+/* news started */
+
+.news {
+    background: #F4F7FA;
+    height: 890px;
+    padding-top: 97px;
+    margin-bottom: 120px;
+
+}
+
+.news-content {
+    width: 505px;
+    height: 129px;
+    margin: 0 auto;
+}
+
+.news-title {
+    font-family: var(--Roboto);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1.2000000476837158px;
+    text-align: center;
+
+}
+
+.news-text {
+    font-family: var(--Roboto);
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: center;
+
+}
+
+.news-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 74px;
+}
+
+
+/* Latest Updates starts */
+
+.latest-updates {
+    width: 502px;
+    height: 432px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.input-container {
+    position: relative;
+    width: 499px;
+    height: 64px;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+
+.latest-input {
+    outline: none;
+    width: 100%;
+    border: none;
+    padding: 20px 100px 20px 20px;
+    font-size: 16px;
+}
+
+.latest-btn {
+    position: absolute;
+    background: #473BF0;
+    color: #FFFFFF;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px;
+    width: 166px;
+    height: 50px;
+    font-family: var(--Roboto);
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.6000000238418579px;
+    text-align: center;
+    border-radius: 6px;
+
+
+}
+
+.latest-updates-title {
+    text-align: center;
+    font-family: var(--Roboto);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1.2000000476837158px;
+    text-align: center;
+
+}
+
+.latest-updates-text {
+    margin-top: 20px;
+    font-family: var(--Roboto);
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: center;
+
+}
+
+.policy {
+    font-family: var(--Roboto);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: center;
+    width: 365px;
+
+}
+
+/* FOOTER START */
+.footer {
+    background-color: var(--mainblack);
+    display: flex;
+    justify-content: center;
+    padding-top: 122px;
+    padding-bottom: 128px;
+    margin-top: 150px;
+    font-family: var(--Roboto);
+
+
+}
+
+.brainwave {
+    margin-right: 130px;
+}
+
+.footlogoname {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33px;
+    color: var(--white);
+    padding-bottom: 36px;
+    font-family: var(--Rubik);
+
+}
+
+.footsublogoname {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--white);
+    padding-bottom: 44px;
+    opacity: 65%;
+}
+
+.services p {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--white);
+    line-height: 26px;
+    padding-bottom: 20px;
+    opacity: 65%;
+}
+
+.company p {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--white);
+    line-height: 26px;
+    padding-bottom: 20px;
+    opacity: 65%;
+}
+
+.product p {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--white);
+    line-height: 26px;
+    padding-bottom: 20px;
+    opacity: 65%;
+}
+
+.Legal p {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--white);
+    line-height: 26px;
+    opacity: 65%;
+    padding-bottom: 20px;
+
+}
+
+.navlink {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--white);
+    line-height: 40px;
+
+}
+
+.company {
+    width: 144px;
+    margin-right: 90 px;
+}
+
+.product {
+    margin-right: 70px;
+}
+
+.services {
+    margin-right: 70px;
+}
+
+.Legal {
+    width: 161px;
+    height: 166px;
+}
+
+/* FOOTER END */
+
+
+
+
+/* Media Queries for Responsive Design */
+@media (max-width: 1199px) {
+
+    /* Adjust navbar brand padding for smaller screens */
+    .navbar-brand {
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    /* Adjust head margin, dream job wrapping for extra-small screens */
+    .head {
+        margin-left: 0px;
+    }
+
+    .dream-job {
+        flex-wrap: wrap;
+        height: 100%;
+    }
+}

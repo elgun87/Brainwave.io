@@ -1,0 +1,83 @@
+/* Header Section Styling */
+.header {
+    /* width: 350px; */
+    margin: 0 auto;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title {
+    font-family: var(--Rubik);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.44px;
+    letter-spacing: -0.031em;
+}
+
+/* Main Section Styling */
+.main {
+    height: 1104px;
+    background: #F4F7FA;
+}
+
+/* Sign-Up Container Styling */
+.sign-up-container {
+    width: 350px;
+    margin: 0 auto;
+    padding-top: 125px;
+}
+
+.sign-up-title {
+    font-family: var(--Roboto);
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 65px;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+.sign-up-text {
+    font-family: var(--Roboto);
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    margin-top: 34px;
+}
+
+/* Form Styling */
+.form {
+    background: #FFFFFF;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #E7E9ED;
+}
+
+.btn {
+    background: #473BF0;
+    color: #FFFFFF;
+    height: 59px;
+    border-radius: 8px;
+    font-family: var(--Roboto);
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.06em;
+}
+
+/* Form Labels */
+form label {
+    font-family: var(--Roboto);
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+}
+
+/* Button Grid Section */
+.d-grid {
+    margin-top: 77px;
+}
